@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Orbitron&family=Oswald:wght@200&family=Red+Rose:wght@700&display=swap');
+
+body{
+    background-color: #e7e7e7;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -13,15 +18,15 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 25px;
-    position: relative;
-    right: 30px;
+    
 }
 
 .nav-bar-list{
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    position: relative;
+    left: 300px;
 }
 
 .list{
@@ -56,6 +61,13 @@
     font-weight: 500;
     position: relative;
     left: 50px;
+}
+
+.nav-bar-list>button:hover{
+    color: #fff;
+    background-color: #07A5F4;
+    border: none;
+    transition: 1s;
 }
 
 .logo{
@@ -413,6 +425,7 @@
 .section6-lower-part-left{
     display: flex;
     flex-direction: column;
+    background-color: #eeeeee;
     border: 1px #c5c3c3b0;
     border-radius: 5px;
     border-style: solid;
@@ -425,6 +438,7 @@
 .section6-lower-part-right{
     display: flex;
     flex-direction: column;
+    background-color: #eeeeee;
     border: 1px #c5c3c3b0;
     border-radius: 5px;
     border-style: solid;
@@ -523,6 +537,13 @@
     font-weight: 400;
 }
 
+.section7-right>button:hover{
+    color: #07A5F4;
+    background-color: #fff;
+    border: none;
+    transition: 1s;
+}
+
 .footer{
     display: flex;
     flex-direction: row;
@@ -584,11 +605,17 @@
 .footer-part5-heading>h4{
     font-size: 20px;
     color:#333333;
-    position: relative;
-    right: 18px;
+}
+
+.footer-part5-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
 }
 
 .footer-part5-content>img{
-    position: relative;
-    right: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
